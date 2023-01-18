@@ -1,0 +1,194 @@
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+#tema1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+@font-face {
+    font-family: honey;
+    src: url(src/font/Angler.ttf);
+}
+
+.letra {
+    font-family: honey;
+}
+
+
+/* fotos do menu de comida com slides */
+
+.frango_slid,
+.frango_slid1,
+.slid_bolo_red,
+.slid_bolo_red1,
+.slid_bolo_chocolate,
+.slid_bolo_chocolate1,
+.slid_torta_limon,
+.slid_torta_limon1,
+.slid_bolo_negresco,
+.slid_bolo_negresco1,
+.slid_copo_felicidade,
+.slid_copo_felicidade1 {
+    display: none;
+}
+
+
+/* dados de comidas do site input --------------------------------------------------- */
+
+#Doce,
+#doce_valor,
+#salgado,
+#salgado_parte,
+#salgado_com,
+#bolo,
+#bolo_mini,
+#bolo_parte,
+#Torta,
+#torta_valor,
+#torta_valor1,
+#copo_valor,
+#copo_massa,
+#copo_recheio,
+#copo_cobertura,
+#copo_caldas {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* espaços entre os botões de contato   */
+
+#copo_massa,
+#copo_caldas,
+#rua_numero {
+    float: left;
+    width: 50%;
+}
+
+#compras,
+#valor_pagamento,
+.carrinho,
+#troco_letra,
+#troco_letra1,
+#troco_letraend,
+#troco_letraend1,
+#troco_letramid,
+#troco_letramid1 {
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+
+.caixa_de_seletion_red {
+    box-shadow: 0px 0px 6px 0px rgb(201, 42, 42);
+    border-radius: 10px;
+}
+
+.caixa_de_seletion {
+    box-shadow: 0px 0px 6px 0px rgb(19, 151, 15);
+    border-radius: 10px;
+}
+
+#compras,
+#troco_letramid,
+#troco_letramid1 {
+    width: 33%;
+}
+
+#total,
+#troco_letraend,
+#troco_letraend1 {
+    text-align: center;
+    width: 33%;
+    color: green;
+}
+
+fieldset>p>input {
+    font-size: 18px;
+}
+
+#copo_cobertura,
+#copo_recheio,
+#referencia {
+    width: 50%;
+}
+
+#tela_ok {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    width: 500px;
+    height: 500px;
+    background-color: rgb(34, 22, 209);
+}
+
+
+/* barra de carregamento  ///////////*/
+
+.progress {
+    height: 15px;
+    background-color: #777;
+    position: relative;
+}
+
+.progress .progress-bar {
+    position: absolute;
+    height: 100%;
+    background-color: #add555;
+    animation: progress-animation 6s infinite;
+}
+
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%
+    }
+}
+
+
+/* ******************************** */
+
+
+/* ----------------------------------------------------------------------- fim */
+
+
+/* cores dos ingredientes de  */
+
+.castanho {
+    color: #000000;
+}
+
+.amendoim {
+    color: #000000;
+}
+
+.teste {
+    display: block;
+}

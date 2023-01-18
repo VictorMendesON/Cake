@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sweet Cake GC</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <script src="PRATO.js"></script>
+    <!-- <script src="api_whatsapp.js"></script> -->
+    <script src="slide.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="1691165.png" type="image/png">
+
+    <script src="valores.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206491200-1">
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-206491200-1');
+    </script>
+
+
+    <!-- Global site tag (gtag.js) - Google Ads: 307536158 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-307536158"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-307536158');
+    </script>
+    <!-- Event snippet for Visualização de página conversion page -->
+    <!-- script para acompanhar  -->
+    <!-- <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-307536158/dowRCMvP8vACEJ7C0pIB'
+        });
+    </script> -->
+
+    <meta name="google-site-verification" content="J5fREuVlJIqqksK7OIl-6Ou5oOiMOlxLAevr7xqD6X0" />
+    <meta name="robots" content="noindex,nofollow">
+</head>
+
+
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top" id="barra_menu">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+            <div class="modo_cell">
+                <a href="#home" class="w3-bar-item w3-button nome-logo">Sweet Cake GC</a>
+            </div>
+
+            <div id="logo_chef">
+                <a href="#"><img src="src/img/logo (2).png" id="icone_cheff" alt="cheff" width="32px" height="32px"> </a>
+            </div>
+
+            <!-- butões de menu ------------------------------------------------------------------- -->
+            <div class="w3-right w3-small" id="menu-box">
+                <div id="modo_cell1">
+                    <a href="#contato" class="w3-bar-item w3-button">Meu pedido</a>
+                    <a href="#ingredientes1" class="w3-bar-item w3-button">Ingredientes</a>
+                    <a href="#cardapio" class="w3-bar-item w3-button">Cardápio</a>
+                    <a href="#sobre" class="w3-bar-item w3-button">sobre</a>
+
+                    <div>
+                        <a href="#" class="w3-bar-item w3-button" align="center"><img src="src/img/logo (2).png" class="foto_top" alt="inicio " width="32px" height="32px"> <label align="center" class="letra_do_menu"> _Inicio_</label></a>
+                        <a href="#cardapio" class="w3-bar-item w3-button"> <img src="src/img/ico_bolo.png" class="foto_top" width="32px" height="32px" alt=""><label class="letra_do_menu">
+                            _Comida_</label></a>
+                        <a href="#contato" class="w3-bar-item w3-button"> <img src="src/img/entrega.png" class="foto_top" width="32px" height="32px" alt=""><label class="letra_do_menu">_Pedido_</label>
+                        </a>
+                        <a href="#sobre" class="w3-bar-item w3-button"> <img src="src/img/chef.png" class="foto_top" width="32px" height="32px" alt=""><label id="letra_mn" class="letra_do_menu">_Sobre_</label></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- tema do site  ----------------------------- -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;min-width:100px">
+        <img class="w3-image" src="src/img/logo.jpg" alt="bolo" id="home">
+
+    </header>
+
+    <!-- central dos bolo  comidas ------------------------------------------------------------------------------------------------------------------ -->
+    <div class="w3-content" id="menu_de_comidas" style="max-width:1600px">
+
+        <div class="w3-container" id="sobre">
+
+            <h4 align="center"> O que é a Sweet Cake GC?</h4>
+            <div align="justify">A Sweet Cake GC é uma Doceria que surgiu com o intuito de trazer um novo sabor ao dia-a-dia do capelense, a ideia de fundar uma micro empresa com base no delivery surgiu do déficit que vimos em relação a diversidade culinária, inclusão alimentar
+                e ao atendimento on-line. O nosso objetivo sempre foi claro: Atender às necessidades do público em geral, e por isso já temos em nosso cardápio opções integrais e zero lactose, sem contar que em breve também contaremos com opções de lanches
+                Veganos, Fitness e sem Glúten.</div>
+        </div>
+        <hr>
+        <div id="centro_das_comidas">
+            <!-- 1 comida -->
+            <div class="w3-row w3-padding-64" align="center" id="cardapio">
+                <div class="w3-col m6 w3-padding-large w3-small" id="comida_img">
+                    <img src="src/img/lasanha1.jpeg" class="w3-round w3-image w3-opacity- frango_slid" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/lasanha.jpeg" class="w3-round w3-image w3-opacity- frango_slid" alt="Table Setting" width="600" height="750">
+                    <!-- chamado do slider na função  -->
+
+                </div>
+                <div class="w3-col m6 w3-padding-large" id="cardapio" align="center">
+                    <h1 class="w3-center" id="frango">Quiche de frango</h1><br>
+
+                    <p class="w3-large" align="center">Quiche de frango COM Lactose: O Quiche de frango é uma base amanteigada coberta por frango cremoso, ervas especiais, milho, queijo, azeitonas e batata palha.</p>
+                    <div class=" m6" id="comida_imgoff">
+                        <img src="src/img/lasanha.jpeg" class="w3-round w3-image w3-opacity- frango_slid1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/lasanha1.jpeg" class="w3-round w3-image w3-opacity- frango_slid1" alt="Table Setting" width="600" height="750">
+
+                    </div>
+
+                    <p>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="TM3B3Lxu"></script>
+                        <div class="fb-like" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#frango" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="GdDNlIzC"></script>
+                        <div class="fb-comments" colorscheme="dark" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#frango" data-width="" data-numposts="2"></div>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 2 comida -->
+
+            <div class="w3-row w3-padding-64" align="center" id="bolo_red">
+                <div class="w3-col m6 w3-padding-large w3-small" id="comida_img">
+                    <img src="src/img/morango.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/morango1.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/morango2.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/morango3.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/morango4.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red" alt="Table Setting" width="600" height="750">
+                </div>
+                <div class="w3-col m6 w3-padding-large" align="center">
+                    <h1 class="w3-center">Bolo Red velvet</h1><br>
+                    <p class="w3-large">O bolo red velvet (veludo vermelho) nada mais é que uma massa especial aveludada em um tom vermelho intenso. <span class="w3-tag w3-light-grey">destaque da comida </span> ingredients.</p>
+                    <div class="m6" id="comida_imgoff">
+                        <img src="src/img/morango.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/morango1.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/morango2.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/morango3.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/morango4.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_red1" alt="Table Setting" width="600" height="750">
+                    </div>
+
+                    <p>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="ny91mz9z"></script>
+                        <div class="fb-like" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#bolo_red" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="TvdpPmeL"></script>
+                        <div class="fb-comments" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#bolo_red" data-width="" data-numposts="2"></div>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3 comida -->
+            <div class="w3-row w3-padding-64" align="center" id="torta_limon">
+                <div class=" w3-col m6 w3-padding-large w3-small" id="comida_img">
+                    <img src="src/img/torta_de_limao.jpeg" class="w3-round w3-image w3-opacity- slid_torta_limon" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/torta_de_limao1.jpeg" class="w3-round w3-image w3-opacity- slid_torta_limon" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/torta_de_lima2.jpeg" class="w3-round w3-image w3-opacity- slid_torta_limon" alt="Table Setting" width="600" height="750">
+                </div>
+
+                <div class="w3-col m6 w3-padding-large" align="center">
+                    <h1 class="w3-center">Torta de Limão Gelada</h1><br>
+                    <p class="w3-large">A torta de limão e composta por base em massa podre, recheio de mousse Limão, cobertura de merengue branco e raspas. Obs: (A torta de limão é um exemplo o recheio pode ser escolhido pelo cliente) <span class="w3-tag
+                        w3-light-grey">destaque da comida </span> ingredients.</p>
+                    <div class="m6" id="comida_imgoff">
+                        <img src="src/img/torta_de_limao.jpeg" class="w3-round w3-image w3-opacity- slid_torta_limon1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/torta_de_limao1.jpeg" class="w3-round w3-image w3-opacity- slid_torta_limon1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/torta_de_lima2.jpeg" class="w3-round w3-image w3-opacity- slid_torta_limon1" alt="Table Setting" width="600" height="750">
+                    </div>
+                    <p>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="D8By0FL1"></script>
+                        <div class="fb-like" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#torta_limon" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="EVGHiMCo"></script>
+                        <div class="fb-comments" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#torta_limon" data-width="" data-numposts="2"></div>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 4 comida -->
+            <div class="w3-row w3-padding-64" align="center">
+                <div class="w3-col m6 w3-padding-large w3-small" id="comida_img">
+                    <img src="src/img/bolo.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_chocolate" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/bolo1.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_chocolate" alt="Table Setting" width="600" height="750">
+                </div>
+
+                <div class="w3-col m6 w3-padding-large" id="bolo_volcano" align="center">
+                    <h1 class="w3-center">Mini Bolo Vulcão</h1><br>
+
+                    <p class="w3-large">O mini bolo vulcão é uma versão média do bolo vulcão tradicional, ou seja, é uma massa comum com o centro cheio de recheio e cobertura. O bolo recebe esse nome pois quando aberto o recheio escorre feito lava formando assim uma cascata
+                        de dentro para fora.
+                    </p>
+                    <div class="m6" id="comida_imgoff">
+                        <img src="src/img/bolo.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_chocolate1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/bolo1.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_chocolate1" alt="Table Setting" width="600" height="750">
+                    </div>
+
+                    <p>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="2Q3r4AOT"></script>
+                        <div class="fb-like" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#bolo_volcano" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="HgPqDet8"></script>
+                        <div class="fb-comments" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#bolo_volcano" data-width="" data-numposts="2"></div>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 5 comida -->
+            <div class="w3-row w3-padding-64" align="center" id="torta_negresco">
+                <div class="w3-col m6 w3-padding-large w3-small" id="comida_img">
+                    <img src="src/img/bolo-negresco.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_negresco" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/bolo-negresco1.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_negresco" alt="Table Setting" width="600" height="750">
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center">Torta de Negresco Gelada</h1><br>
+
+                    <p class="w3-large">Essa versão tem base feita a partir do próprio biscoito, recheio do mesmo sabor e cobertura de<span class="w3-tag w3-light-grey">Chantilly. </span>
+                    </p>
+                    <div class="m6" id="comida_imgoff">
+                        <img src="src/img/bolo-negresco.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_negresco1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/bolo-negresco1.jpeg" class="w3-round w3-image w3-opacity- slid_bolo_negresco1" alt="Table Setting" width="600" height="750">
+                    </div>
+
+                    <p>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="1fIqLdXI"></script>
+                        <div class="fb-like" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#torta_negresco" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="bBUywLOd"></script>
+                        <div class="fb-comments" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#torta_negresco" data-width="" data-numposts="2"></div>
+                    </p>
+                </div>
+            </div>
+            <!-- 6 comida -->
+            <div class="w3-row w3-padding-64" align="center" id="copo_da_felicidade">
+                <div class="w3-col m6 w3-padding-large w3-small" id="comida_img">
+                    <img src="src/img/image0.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/image1.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/image2.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade" alt="Table Setting" width="600" height="750">
+                    <img src="src/img/image3.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade" alt="Table Setting" width="600" height="750">
+                </div>
+
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center">Copos da Felicidade</h1><br>
+
+                    <p class="w3-large">O copo tem Base em vidro e acompanha os mais diversos recheios e massas em camadas alternadas.
+                    </p>
+                    <div class="m6" id="comida_imgoff">
+                        <img src="src/img/image0.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/image1.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/image2.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade1" alt="Table Setting" width="600" height="750">
+                        <img src="src/img/image3.jpeg" class="w3-round w3-image w3-opacity- slid_copo_felicidade1" alt="Table Setting" width="600" height="750">
+                    </div>
+
+                    <p>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="1fIqLdXI"></script>
+                        <div class="fb-like" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#torta_negresco" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v11.0" nonce="bBUywLOd"></script>
+                        <div class="fb-comments" data-href="https://luizinhovi.github.io/Sweet-Cake-GC/#torta_negresco" data-width="" data-numposts="2"></div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Menu cardápio-->
+        <div class="w3-row w3-padding-64" id="menu_cardapio">
+            <div class="w3-col l6 w3-padding-large">
+                <h1 class="w3-center">Cardápio</h1><br>
+                <h4>Bolo Red velvet</h4>
+                <p class="w3-text-grey"> Valores:</p>
+                <p class="w3-text-grey"> Bolo inteiro: <b> $70.00</b><br> Fatias: <b> $7,00</b></p><br>
+                <h4>Mini Bolo Vulcão</h4>
+                <p class="w3-text-grey"> Valores: </p>
+                <p class="w3-text-grey">Bolo inteiro: <b> $15,00</b></p><br>
+                <h4>Quiche de frango COM Lactose</h4>
+                <p class="w3-text-grey">Valores </p>
+                <p class="w3-text-grey">Quiche inteiro: <b> $27,00</b><br> Fatias: <b> $4,50</b></p><br>
+                <h4>Quiche de frango SEM Lactose</h4>
+                <p class="w3-text-grey"> Valores</p>
+                <p class="w3-text-grey">Quiche inteiro: <b> $24,00</b> <br> Fatias:<b> $4,00</b></p><br>
+                <h4>Torta de Limão Gelada:</h4>
+                <p class="w3-text-grey"> Valores</p>
+                <p class="w3-text-grey">Torta inteira: <b> $24,00</b> Fatias: <b> $4,00</b></p><br>
+                <h4>Torta de Negresco Gelada:</h4>
+                <p class="w3-text-grey">Valores </p>
+                <p class="w3-text-grey">Torta inteira: <b> $35,00</b> Fatia: <b> $7,00</b></p><br>
+                <h4>Brownnie</h4>
+                <p class="w3-text-grey"> Valores</p>
+                <p class="w3-text-grey">Unidade:<b> $3,00</b></p><br>
+                <h4>Copos da Felicidade</h4>
+                <p class="w3-text-grey"> Valores</p>
+                <p class="w3-text-grey">Unidade: <b> $13,00</b></p><br>
+
+
+            </div>
+            <div class="w3-col l6 w3-padding-large">
+
+                <div>
+                    <img src="src/img/cardapio.png" class="w3-round w3-image w3-opacity-" alt="">
+                </div>
+
+            </div>
+        </div>
+        <br id="ingredientes1">
+        <hr>
+        <!--ingredientes----------------------------------------------------------------------------------------- -->
+
+        <div class="w3-container" id="ingredientes">
+            <div>
+                <img src="src/img/clube-de-cobertura (1).png" class="recheios" alt="">
+                <h1>Recheios </h1>
+                <ul>
+                    <li>Amendoim</li>
+                    <li>Castanha</li>
+                    <li>Chocolate </li>
+                    <li>Branco</li>
+                    <li>Chocolate ao leite</li>
+                    <li>Chocolate meio amargo</li>
+                    <li> Creme Belga</li>
+                    <li>Creme belga com morangos</li>
+                    <li>Creme Brûleé</li>
+                    <li>Creme de oreo</li>
+                    <li>Limão</li>
+                    <li>(Ambos os recheios tem opções zero lactose)</li>
+                </ul>
+            </div>
+            <div>
+
+                <h1>Coberturas</h1>
+                <ul>
+                    <li>Frutais: (Morangos, maracujá, cerejas e etc)</li>
+                    <li>Chantilly</li>
+                    <li>Recheio tradicional</li>
+
+                </ul>
+            </div>
+            <div>
+                <h1>Massas</h1>
+                <ul>
+                    <li>Red Velvet</li>
+                    <li>Massa branca (ovos)</li>
+                    <li>Massa Preta (chocolate)</li>
+                    <li>Massa laranja</li>
+                    <li>Massa cenoura</li>
+
+                </ul>
+            </div>
+            <div>
+                <h1>Caldas</h1>
+                <ul>
+                    <li>Morango</li>
+                    <li>Maracujá</li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!---- endereço ------------------------------------------ -->
+        <div class="w3-container w3-padding-64">
+            <hr>
+            <br>
+            <h1>Endereço</h1><br>
+            <h3 class="letra"> Sistema delivery FREE Somente para Capela-Se 🛵
+
+            </h3>
+            <p class="w3-text-blue-grey w3-large"><b>Capela - SE</b></p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.07649940590798!2d-37.053040974401966!3d-10.510236464681164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x705694dce44cf9b%3A0xb0f9492781a1cddb!2sCapela!5e1!3m2!1spt-BR!2sbr!4v1628089801664!5m2!1spt-BR!2sbr"
+                    width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+            <hr>
+
+            <h1 id="contato">Meu pedido</h1>
+            <h4>! Seu pedido será direcionado e enviado para o <span> Whatsapp </span><br> após o Envio é só Confirma ! </h4>
+            <!-- <h5>(AVISO) No momento estamos atualizando o site para novas funções...</h5> -->
+            <br>
+            <form autocomplete="on">
+                <!-- method="dialog" -->
+                <p>
+                    <h4 align="center">Cliente</h4>
+                </p>
+
+                <fieldset id="dados">
+                    <legend></legend>
+
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="Name" id="name" alt="digita seu nome"></p>
+
+                    <!-- <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="email"></p> -->
+                    <!-- numero de telefone -->
+                    <p><input class="w3-input w3-padding-16" type="tel" pattern="[0-9]{2}[0-9]{9}" placeholder="Celular" maxlength="11" minlength="9" id="celular" required name="People"></p>
+                    <!-- endereço -->
+                    <p><input type="text" id="rua" required class="w3-input w3-padding-16" placeholder="Endereço da sua Rua " oninput=""></p>
+                    <p></p>
+                    <!-- numero da casa -->
+                    <p><input type="number" id="rua_numero" class="w3-input w3-padding-16" placeholder="Nº da casa" max="99999" required pattern="([0-9]{9})" maxlength="4" name="numero-casa" oninput=""></p>
+                    <!-- referencia -->
+                    <p><input type="text" id="referencia" required placeholder="Ponto de referência" class="w3-input w3-padding-16" oninput=""></p>
+                </fieldset>
+                <p> <br>
+                    <h4 align="center">Pedido</h4>
+                </p>
+                <!-- escolhas das comidas e sub-comidas  -->
+                <fieldset id="pratos">
+                    <legend id="pedido_numerador">1 Pedido</legend>
+                    <p>
+
+
+                        <select class="w3-input w3-padding-16" onchange="escolher_prato()" onclick="meu_valor()" oninput="escolha_pagamento()" required="required" name="list" id="tipo_prato"> 
+                            
+                           
+                            <option value="" disabled selected>Selecionar...</option>
+                            <option value="Bolo">Bolo </option>
+                            <option value="Torta">Torta</option>
+                            <option value="Salgado">Salgado</option>
+                            <option value="Doce">Doce</option>
+                            <option value="copo">copo da felicidade</option>
+                
+                    </select>
+
+                        <!-- massa -->
+                        <p><select class="w3-input w3-padding-16" required name="list" id="copo_massa" oninput="escolher_prato()">
+                        <optgroup label="MASSA">
+                        <option value="" disabled >Selecionar...</option>
+                        
+                        <option value="Copos da Felicidade" selected>Massa Red Velvet</option>
+                        <option value="Copos da Felicidade">Massa branca (ovos) </option>
+                        <option value="Copos da Felicidade">Massa Preta (chocolate) </option>
+                        <option value="Copos da Felicidade">Massa laranja </option>
+                        <option value="Copos da Felicidade">Massa cenoura</option>
+                    </optgroup>
+                    </select></p>
+
+                        <!-- coberturas -->
+                        <p><select class="w3-input w3-padding-16" required name="list" id="copo_cobertura" oninput="escolher_prato()">
+                    <optgroup label="COBERTURAS">
+                        <option value="" disabled >Selecionar...</option>
+                        <option value="0">Nenhum</option>
+                        <option value="Copos da Felicidade" selected>Cobertura Frutais</option>
+                        <option value="Copos da Felicidade">Cobertura Recheio tradicional</option>
+                        <option value="Copos da Felicidade">Cobertura Chantilly</option>
+                    </optgroup>
+                        
+                </select></p>
+                        <!-- caldas -->
+                        <p> <select class="w3-input w3-padding-16" required name="list" id="copo_caldas" oninput="escolher_prato()">
+                        
+                        
+                       <optgroup label="CALDAS">
+                           <option value="" disabled selected>Selecionar...</option>
+                           <option value="0" selected>Nenhum</option>
+                           <option value="Copos da Felicidade">Calda de Morango</option>
+                           <option value="Copos da Felicidade">Calda de Maracujá</option>
+                        </optgroup>
+                
+                        
+                    </select></p>
+                        <!-- recheio -->
+                        <p> <select class="w3-input w3-padding-16" required name="list" id="copo_recheio" oninput="escolher_prato()">               
+                    <optgroup label="RECHEIO">
+                        <option value=""disabled >Selecionar...</option>
+                        <option value="0" selected>Nenhum</option>
+                        <option class="amendoim" value="Copos da Felicidade" > Recheio Amendoim </option>
+                        <option class="castanho" value="Copos da Felicidade">Recheio Castanha</option>
+                        <option value="Copos da Felicidade">Recheio Chocolate Branco</option>
+                        <option value="Copos da Felicidade">Recheio Chocolate ao leite</option>
+                        <option value="Copos da Felicidade">Recheio Chocolate meio amargo</option>
+                        <option value="Copos da Felicidade">Recheio Creme Belga</option>
+                        <option value="Copos da Felicidade">Recheio Creme belga com morangos</option>
+                        <option value="Copos da Felicidade">Recheio Creme Brûleé</option>
+                        <option value="Copos da Felicidade">Recheio Creme de oreo</option>
+                        <option value="Copos da Felicidade">Recheio Creme de Limão</option>
+                    </optgroup>
+                    </select></p>
+                        <!--  torta-->
+                        <p> <select class="w3-input w3-padding-16" required name="list" id="Torta" oninput="escolher_prato()" onclick="meu_valor()">
+                        
+                    <option value="limao">Torta de Limão Gelada</option>
+                        <option value="negresco">Torta de Negresco Gelada</option>
+
+                </select></p>
+                        <!-- torta de limão -->
+                        <P> <select class="w3-input w3-padding-16" oninput="escolher_prato(),meu_valor()" name="" id="torta_valor">
+                    <optgroup label="PREÇO">
+                    <option value="1">Inteiro R$ 24,00</option>
+                    <option value="2">Fatia R$ 4,00</option>
+                </optgroup>
+                </select></P>
+                        <!-- torta de negresco -->
+                        <P> <select class="w3-input w3-padding-16" oninput="escolher_prato(),meu_valor()" name="" id="torta_valor1">
+                    <optgroup label="PREÇO">
+                    <option value="1">Inteiro R$ 35,00</option>
+                    <option value="2">Fatia R$ 7,00</option>
+                </optgroup>
+                </select></P>
+
+                        <!-- salgado -->
+                        <p> <select class="w3-input w3-padding-16" placeholder="selecione o pedido" oninput="escolher_prato()" onclick="meu_valor()" required name="list" id="salgado">
+                        <optgroup label="SALGADO">
+
+                        <option value="1">Quiche de frango COM Lactose</option>
+                        <option value="2">Quiche de frango SEM Lactose</option>
+
+                    </optgroup>
+                </select>
+                        </p>
+                        <!--escolhas do quiche de frango  com lactose -->
+                        <P> <select class="w3-input w3-padding-16" oninput="escolher_prato()" onclick="meu_valor()" name="" id="salgado_com">
+                    <optgroup label="PREÇO">
+                    <option value="1">Inteiro R$ 27,00</option>
+                    <option value="2">Fatia R$ 4,50</option>
+                </optgroup>
+                </select></P>
+
+                        <P> <select class="w3-input w3-padding-16" oninput="escolher_prato()" onclick="meu_valor()" name="" id="salgado_parte">
+                    <optgroup label="PREÇO">
+                    <option value="1">Inteiro R$ 24,00</option>
+                    <option value="2">Fatia R$ 4,00</option>
+                </optgroup>
+                </select></P>
+
+                        <!-- bolos -->
+                        <p>
+                            <select class="w3-input  w3-padding-16" required onchange="escolher_prato()" onclick="meu_valor()" id="bolo">
+                                 <optgroup label="Bolos">
+                                     <option value="2">Bolo Red velvet</option>
+                                     <option value="1">Mini Bolo Vulcão</option>
+                                    </optgroup>
+                                
+                            </select>
+                        </p>
+
+                        <!-- escolhas do bolo  -->
+                        <P> <select class="w3-input w3-padding-16" oninput="escolher_prato()" onclick="meu_valor()" name="" id="bolo_parte">
+                    <optgroup label="PREÇOS">
+
+                        <option value="1">Inteiro R$ 70.00</option>
+                        <option value="2">Fatia R$ 7,00</option>
+                    </optgroup>
+                    
+                </select></P>
+
+                        <P> <select class="w3-input w3-padding-16" required onchange="escolher_prato()" name="" id="bolo_mini">
+                    <optgroup label="PREÇOS">
+                    <option value="1">Inteiro R$ 15,00</option>
+                    </optgroup>
+                    
+                </select></P>
+                        <!-- tipos de doces  -->
+                        <p> <select class="w3-input w3-padding-16" placeholder="selecione o pedido" required name="list" id="Doce">
+
+                        <option value="1">Brownie </option>
+                    
+                     
+                </select></p>
+
+                        <P> <select class="w3-input w3-padding-16" oninput="escolher_prato()" name="" id="doce_valor">
+                    <optgroup label="PREÇOS">
+
+                        <option value="1">Inteiro R$ 3,00</option>
+                    </optgroup>
+                    
+                </select></P>
+
+                        <P> <select class="w3-input w3-padding-16" oninput="escolher_prato()" name="" id="copo_valor">
+                    <optgroup label="PREÇO">
+                    <option value="1">Unidade R$ 13,00</option>
+                   
+                </optgroup>
+                </select></P>
+
+
+
+
+                </fieldset>
+                <!-- <p>
+                    <button>Adicionar +</button>
+                </p> -->
+                <p><br>
+                    <h4 align="center">Modo de pagamento</h4>
+
+                </p>
+
+                <fieldset id="pagamento">
+
+                    <legend>Pagamento</legend>
+
+                    <!-- opções de cartão de credito ou pagamento a vista  -->
+                    <select class="w3-input w3-padding-16" alt="escolha o modo de pagamento" id="tipo_pagamento" required oninput="escolha_pagamento()">
+                        <option value="" selected disabled >Selecionar</option>
+                        <option value="vista">À VISTA</option>
+                        <option value="pix">PIX E QR-CODE (em breve)</option>
+                      
+                    </select>
+
+
+
+                    <p id="troco_letra"> Á VISTA </p>
+                    <p id="troco_letramid"> CARRINHO</p>
+                    <p id="troco_letraend">TROCO </p>
+
+
+
+
+                    <p id="troco_letra1">
+                        <img class="img_pagamento geral" src="src/img/pagamento/carteira.png" alt="">
+
+                    </p>
+                    <p id="troco_letramid1">
+                        <img class="img_pagamento geral" src="src/img/pagamento/cexto.png" alt="">
+
+                    </p>
+                    <p id="troco_letraend1">
+                        <img class="img_pagamento geral" src="src/img/pagamento/pagamento.png" alt="">
+
+                    </p>
+
+                    <!-- digita o valor que ira pagar à vista -->
+                    <p>
+                        <input type="number" oninput="meu_valor(),escolha_pagamento()" oninput="numero_max(event)" onkeypress="numero_max(this)" maxlength="2" min="1" max="100" id="valor_pagamento" value="" class=" w3-input w3-padding-16" required>
+                    </p>
+
+                    <!-- compras -->
+                    <p>
+                        <input type="text" disabled id="compras" placeholder="R$ 0.00" class="w3-input w3-padding-16">
+                    </p>
+                    <!-- troco -->
+                    <p><input type="text" id="total" disabled placeholder="R$ 0.00" class="w3-input w3-padding-16">
+                    </p>
+                </fieldset>
+
+
+                <p align="center"><br><input type="checkbox" id="pedido" required><label style="font-size: 20px;" for="pedido"> Confirma o pedido</label></p>
+
+
+
+                <!-- botão de enviar  -->
+                <p align="center">
+                    <input class="w3-button w3-light-grey w3-section" id="enviar" type="submit" onclick="enviarMensagem()" value="Enviar Pedido"> </p>
+            </form>
+        </div>
+        <!-- End page content -->
+    </div>
+
+    <div id="tela_ok">
+        teste
+    </div>
+    <!-- Footer -->
+    <footer class="final w3-light-grey w3-padding-32">
+        <h2>“Carinho e doçura em tudo que faz”</h2><br>
+
+        <h4>Redes sociais</h4>
+        <p class="w3-hover-text-">
+
+            <a href="https://www.instagram.com/sweet_cakegc/" target="_blank" class="w3-bar-item w3-button"><img src="https://image.flaticon.com/icons/png/512/733/733558.png" width="50" height="50" alt=""></a>
+
+
+        </p>
+        <p>Criado por
+            <a href="https://www.codeprogramado.com.br/" target="blank_">CODE PROGRAMADO</a>
+
+            <p align="center">
+                <a href="https://www.instagram.com/codeprogramado/" target="_blank">
+
+                    <img src="/src/codeprogramado.png" width="50px" alt="">
+                </a>
+            </p>
+        </p>
+    </footer>
+    <!-- escript final de animação de slides -->
+
+    <script>
+        slid_frango();
+        slid_bolo_red();
+        slid_torta_limon();
+        slid_bolo_chocolate();
+        slid_bolo_negresco();
+        slid_copo_felicidade();
+
+
+        escolha_pagamento();
+    </script>
+    <script src="valores.js"></script>
+
+
+
+
+</body>
+
+</html>
